@@ -19,13 +19,7 @@ layout: default
 
 <section id="bio" class="wrapper style2">
 	<div class="inner">
-		<header class="major">
-			<h2>Bio</h2>
-			<p>Who I am.</p>
-		</header>
-		<section>
-			<span class="image left"><img src="img/me-compressor.jpg" alt="" /></span>{% capture bio %}{% include bio.md %}{% endcapture %}{{ bio | markdownify }}
-		</section>
+		{% capture bio %}{% include bio.md %}{% endcapture %}{{ bio | markdownify }}
 	</div>
 </section>
 
