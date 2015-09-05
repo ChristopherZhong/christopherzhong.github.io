@@ -18,3 +18,6 @@ Ahh, the wonders of technology. But remember that:
 
 > Technology is a double-edged sword. It can be used for good **and** bad.
 </section>
+<ul class="icons major">
+  <li><a href="https://github.com/{{ site.github.username }}"><span class="icon fa-github"><span class="label">{{ site.github.username }}</span></span></a></li>
+</ul>

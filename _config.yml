@@ -19,3 +19,5 @@ description: > # this means to ignore newlines until the next "<key>:"
   Get in touch with Christopher Zhong.
 analytics:
   id: UA-664111-4
+github:
+  username: chriszhong
