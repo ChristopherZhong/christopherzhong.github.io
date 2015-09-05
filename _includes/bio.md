@@ -20,4 +20,6 @@ Ahh, the wonders of technology. But remember that:
 </section>
 <ul class="icons major">
   <li><a href="https://github.com/{{ site.github.username }}"><span class="icon fa-github"><span class="label">{{ site.github.username }}</span></span></a></li>
+  <li><a href="https://www.linkedin.com/in/{{ site.linkedin.username }}"><span class="icon fa-linkedin"><span class="label">{{ site.linkedin.username }}</span></span></a></li>
+  <li><a href="https://plus.google.com/+{{ site.google_plus.username }}"><span class="icon fa-google-plus"><span class="label">{{ site.google_plus.username }}</span></span></a></li>
 </ul>
