@@ -24,7 +24,7 @@ layout: default
 			<p>Who I am.</p>
 		</header>
 		<section>
-			<span class="image left"><img src="img/me-compressor.jpg" alt="" /></span>{% capture bio %}{% include_relative md/bio.md %}{% endcapture %}{{ bio | markdownify }}
+			<span class="image left"><img src="img/me-compressor.jpg" alt="" /></span>{% capture bio %}{% include md/bio.md %}{% endcapture %}{{ bio | markdownify }}
 		</section>
 	</div>
 </section>
