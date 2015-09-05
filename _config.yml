@@ -17,3 +17,5 @@ description: > # this means to ignore newlines until the next "<key>:"
   Christopher Zhong is a Software Engineer and has a PhD in Computer Science.
   See Christopher's Bio, Resume, and more.
   Get in touch with Christopher Zhong.
+analytics:
+  id: UA-664111-4
