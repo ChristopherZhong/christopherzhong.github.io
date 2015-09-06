@@ -9,6 +9,11 @@ url: "http://chriszhong.github.io" # the base hostname & protocol for your site
 # build settings
 markdown: kramdown
 highlighter: Pygments
+exclude:
+  - img/avatar.png
+  - img/graduation-hat.svg
+  - img/k-state.svg
+  - img/me.jpg
 
 # site settings
 title: Christopher Zhong | Software Engineer | Bio &amp; Portfolio
