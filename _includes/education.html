@@ -4,11 +4,6 @@
 			<h2>Education</h2>
 			<p>Where I have studied.</p>
 		</header>
-		<div class="spotlight">
-			<div class="image"><img src="img/k-state-compressor.svg" alt="" /></div>
-			<div class="content">
-				{% capture education %}{% include education.md %}{% endcapture %}{{ education | markdownify }}
-			</div>
-		</div>
+		{% capture education %}{% include education.md %}{% endcapture %}{{ education | markdownify }}
 	</div>
 </section>
