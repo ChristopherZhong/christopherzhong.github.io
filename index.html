@@ -17,11 +17,7 @@ layout: default
 	</div>
 </header>
 
-<section id="bio-section" class="wrapper style2">
-	<div class="inner">
-		{% capture bio %}{% include bio.md %}{% endcapture %}{{ bio | markdownify }}
-	</div>
-</section>
+{% include bio.html %}
 
 <section id="education-section" class="wrapper">
 	<div class="inner">

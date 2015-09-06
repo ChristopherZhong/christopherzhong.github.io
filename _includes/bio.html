@@ -1,0 +1,5 @@
+<section id="bio-section" class="wrapper style2">
+	<div class="inner">
+		{% capture bio %}{% include bio.md %}{% endcapture %}{{ bio | markdownify }}
+	</div>
+</section>
