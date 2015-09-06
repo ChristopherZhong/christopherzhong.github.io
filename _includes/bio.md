@@ -5,7 +5,7 @@
 Who I am.
 </header>
 <span class="image left"><img src="img/me-compressor.jpg" alt="" /></span>
-<section>
+
 I am a software engineer and earned my Ph.D. in computer science.
 
 As a software engineer, I am particularly fond of agile development methodologies. I have no preference towards any approach. Scrum, Kanban, or a mix of any of them, bring them all on; especially if there are graphs and metrics showing progress. For me, there is just something about seeing graphs that reflect the progress of a project. I'm a firm believer of test cases, however, I'm not particularly into Test Driven Development (TDD) because TDD is hard to apply when requirements are not been fully specified. So, I adopt the reverse process of TDD: write the code and then write the test cases to cover every path. In addition, this approach works particularly well with continuous integration and deployment, which I'm also a fan.
@@ -17,7 +17,7 @@ Another of my favorites is home automation with the motto of "automate everythin
 Ahh, the wonders of technology. But remember that:
 
 > Technology is a double-edged sword. It can be used for good **and** bad.
-</section>
+
 <ul class="icons">
   <li><a href="https://github.com/{{ site.github.username }}" class="icon fa-github"><span class="label">GitHub</span></a></li>
   <li><a href="https://www.linkedin.com/in/{{ site.linkedin.username }}" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
