@@ -1,5 +1,15 @@
-<section id="bio-section" class="wrapper style2">
+<section id="bio" class="wrapper style2">
 	<div class="inner">
+		<header class="major">
+			<h2>Bio</h2>
+			<p>Who I am.</p>
+		</header>
+		<span class="image left"><img src="img/me-compressor.jpg" alt="" /></span>
 		{% capture bio %}{% include bio.md %}{% endcapture %}{{ bio | markdownify }}
+		<ul class="icons">
+			<li><a href="https://github.com/{{ site.github.username }}" class="icon fa-github"><span class="label">GitHub</span></a></li>
+			<li><a href="https://www.linkedin.com/in/{{ site.linkedin.username }}" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			<li><a href="https://plus.google.com/+{{ site.google_plus.username }}" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+		</ul>
 	</div>
 </section>
